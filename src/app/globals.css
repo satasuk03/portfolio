@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+.input-change-animation {
+  animation: fade-in 0.3s ease-in-out;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@theme {
+  --font-yusei-magic: "Yusei Magic", sans-serif;
+
+  --color-gold-300: #f6c880;
+  --color-gold-400: #be7933;
+  --color-gold-500: #cfad78;
+
+  /* Background Colors */
+  --color-dark-purple-800: #1f1f3c;
+  --color-dark-purple-600: #212332;
+  --color-dark-purple-400: #3a394c;
+  --color-dark-orange: #7b5443;
+  --color-dark-blue-400: #3d435b;
+  --color-dark-blue-600: #30323f;
+  --color-dark-blue-800: #151723;
+  /* Card Components */
+  --color-dark-blue-card-400: #282b3b;
+  --color-dark-blue-card-800: #1f222a;
+
+  --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0.5;
+      transform: scale(0.8);
+    }
+    70% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
