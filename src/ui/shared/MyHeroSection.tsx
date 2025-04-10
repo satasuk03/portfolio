@@ -1,15 +1,25 @@
 import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "../components/Avatar";
 import { BoxReveal } from "../components/BoxReveal";
+import { Lens } from "../components/Lens";
 
 export default function MyHeroSection() {
   return (
     <div className="flex flex-col items-center justify-center mx-4">
       <div className="flex sm:flex-row flex-col items-center justify-center gap-8">
-        <Avatar className="sm:w-[250px] sm:h-[250px] w-[200px] h-[200px]">
-          <AvatarImage src="/images/me.webp" alt="@shadcn" />
-          <AvatarFallback>SV</AvatarFallback>
-        </Avatar>
+        <Lens
+          zoomFactor={1.5}
+          lensSize={100}
+          isStatic={false}
+          ariaLabel="Zoom Area"
+        >
+          <Avatar className="sm:w-[250px] sm:h-[250px] w-[200px] h-[200px]">
+            <AvatarImage src="/images/me.webp" alt="@shadcn" />
+            <AvatarFallback className="bg-terminal-grey text-terminal-white font-bold text-6xl">
+              SV
+            </AvatarFallback>
+          </Avatar>
+        </Lens>
         <div className="text-terminal-white sm:text-left text-center">
           <BoxReveal duration={0.5}>
             <h1 className="sm:text-6xl text-4xl font-bold">Hello, I&apos;m</h1>
