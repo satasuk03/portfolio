@@ -11,12 +11,10 @@ export default function RootLayout({
   const [queryClient] = useState(() => new QueryClient());
 
   return (
-    <html lang="en">
-      <body className={`antialiased bg-dark-blue-800`}>
-        <QueryClientProvider client={queryClient}>
-          <div>{children}</div>
-        </QueryClientProvider>
-      </body>
-    </html>
+    <QueryClientProvider client={queryClient}>
+      <html lang="en">
+        <body className={`antialiased bg-dark-blue-800`}>{children}</body>
+      </html>
+    </QueryClientProvider>
   );
 }
