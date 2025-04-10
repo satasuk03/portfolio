@@ -2,7 +2,6 @@
 import "./globals.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import React, { useState } from "react";
-import SkyBg from "@/ui/shared/SkyBg";
 
 export default function RootLayout({
   children,
@@ -13,9 +12,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className={`antialiased bg-dark-blue-800`}>
         <QueryClientProvider client={queryClient}>
-          <SkyBg>{children}</SkyBg>
+          <div>{children}</div>
         </QueryClientProvider>
       </body>
     </html>

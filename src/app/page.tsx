@@ -1,12 +1,13 @@
 "use client";
-import { redirect } from "next/navigation";
+
+import { MyTerminal } from "@/ui/shared/MyTerminal";
 
 export default function Home() {
-  redirect("/prophecy");
-
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden">
+      <div>
+        <MyTerminal redirectTo="/portfolio" />
+      </div>
     </div>
   );
 }
