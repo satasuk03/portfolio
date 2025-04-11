@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Architects+Daughter&display=swap");
 @import "tailwindcss";
 
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
+  color: var(--color-terminal-white);
 }
 
 @theme inline {
@@ -26,14 +27,21 @@
 }
 
 @theme {
-  --font-yusei-magic: "Yusei Magic", sans-serif;
+  --font-abel: "Abel", sans-serif;
+  --font-architects-daughter: "Architects Daughter", cursive;
 
-  --color-orange-400: #f38c28;
+  --color-primary: var(--color-terminal-white);
+  --color-secondary: #17ffb3;
+  --color-secondary-600: #102634;
+  --color-secondary-800: #040607;
+
+  --color-redish-pink: #ff2975;
 
   --color-blue-400: #57bcc7;
   --color-terminal-white: #ededea;
   --color-terminal-grey: #393938;
   --color-terminal-black: #252422;
+  --color-terminal-black-800: #141413;
 
   /* Background Colors */
   --color-dark-blue-800: #090b0c;
