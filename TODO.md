@@ -1,0 +1,3 @@
+- [ ] Add Instagram and LinkedIn to the footer
+- [ ] Add a photography portfolio page
+- [ ] Do some OTP input secret and scratch to get code

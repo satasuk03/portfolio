@@ -50,16 +50,11 @@ export function MyTerminal({ redirectTo }: MyTerminalProps) {
           <span>✔ Portfolio assets loaded successfully.</span>
         </AnimatedSpan>
 
-        <AnimatedSpan delay={4000} className="text-blue-500">
-          <span>ℹ Notable projects detected:</span>
-          <span className="pl-2">- [Radiant.gg]</span>
-        </AnimatedSpan>
-
-        <AnimatedSpan delay={4500} className="text-yellow-500">
+        <AnimatedSpan delay={4000} className="text-yellow-500">
           <span>⚠ High creativity levels detected!</span>
         </AnimatedSpan>
 
-        <TypingAnimation delay={5500} className="text-[#ededea] text-wrap">
+        <TypingAnimation delay={4500} className="text-[#ededea] text-wrap">
           &gt; Welcome to my digital workspace. I&apos;m Satasuk Viparksinlapin
         </TypingAnimation>
       </Terminal>
