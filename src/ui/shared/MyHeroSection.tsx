@@ -30,7 +30,7 @@ export default function MyHeroSection() {
             duration={0.5}
             boxClassName="bg-gradient-to-br from-[#ff2975] from-35% to-[#17ffb3]"
           >
-            <h2 className="text-transparent dark:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] sm:text-6xl text-4xl font-semi-bold font-architects-daughter bg-clip-text bg-gradient-to-br from-[#ff2975] from-35% to-[#17ffb3]">
+            <h2 className="text-transparent drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] sm:text-6xl text-5xl font-semi-bold font-architects-daughter bg-clip-text bg-gradient-to-br from-[#ff2975] from-35% to-[#17ffb3]">
               Satasuk Vip
             </h2>
           </BoxReveal>

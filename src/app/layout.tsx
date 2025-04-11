@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <QueryClientProvider client={queryClient}>
       <html lang="en">
-        <body className={`antialiased bg-secondary-800`}>{children}</body>
+        <body className={`antialiased bg-terminal-black-800`}>{children}</body>
       </html>
     </QueryClientProvider>
   );
