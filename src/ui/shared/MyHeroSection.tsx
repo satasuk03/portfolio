@@ -5,7 +5,7 @@ import { Lens } from "../components/Lens";
 
 export default function MyHeroSection() {
   return (
-    <div className="flex flex-col items-center mt-8 font-abel">
+    <div className="flex flex-col items-center font-abel">
       <div className="flex sm:flex-row flex-col items-center justify-center gap-8">
         <Avatar className="sm:w-[200px] sm:h-[200px] w-[180px] h-[180px]">
           <Lens

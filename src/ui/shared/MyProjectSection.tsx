@@ -45,7 +45,7 @@ export default function MyProject() {
       <h2 className="sm:text-2xl text-lg font-medium font-poppins text-secondary/80">
         Recent Projects
       </h2>
-      <div className="mt-4 font-abel font-medium">
+      <div className="sm:mt-4 mt-2 font-abel font-medium">
         <ExpandableProjectCard cards={cards} />
       </div>
     </FadeInDiv>

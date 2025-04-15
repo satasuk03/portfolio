@@ -20,7 +20,7 @@ export default function NavBar({ className }: NavBarProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
         >
-          <h1 className="text-2xl font-bold font-abel">
+          <h1 className="text-2xl font-bold font-abel gradient-text">
             <Link href="/">ZEZE PORTFOLIO</Link>
           </h1>
         </motion.div>
