@@ -5,9 +5,9 @@ import { Lens } from "../components/Lens";
 
 export default function MyHeroSection() {
   return (
-    <div className="flex flex-col items-center font-abel">
-      <div className="flex sm:flex-row flex-col items-center justify-center gap-8">
-        <Avatar className="sm:w-[200px] sm:h-[200px] w-[180px] h-[180px]">
+    <div className="flex flex-col font-abel">
+      <div className="flex sm:flex-row flex-col sm:items-center sm:justify-center gap-8">
+        <Avatar className="sm:w-[200px] sm:h-[200px] w-[180px] h-[180px] mx-auto sm:mx-0">
           <Lens
             zoomFactor={2}
             lensSize={100}
@@ -40,7 +40,7 @@ export default function MyHeroSection() {
             </p>
           </BoxReveal>
           <BoxReveal duration={0.5} boxClassName="bg-terminal-white/80">
-            <div className="text-secondary sm:text-sm text-xs text-left mt-2">
+            <div className="text-secondary sm:text-sm text-xs text-left mt">
               <p className="text-terminal-white/80">
                 Turning complex challenges into elegant solutions, one line of
                 code at a time.

@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <div className="flex flex-col gap-4 sm:gap-8">
       <MyHeroSection />
-      <hr className="text-terminal-white/30 mx-4" />
+      <hr className="text-terminal-white/30" />
       <MyProject />
     </div>
   );
