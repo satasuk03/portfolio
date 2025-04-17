@@ -6,7 +6,7 @@ const cards = [
   {
     description: "Magic Project",
     title: "You in Fantasy World",
-    src: "images/fantasy-world.webp",
+    src: "/images/fantasy-world.webp",
     ctaText: "Visit",
     ctaLink: "https://magic.zeze.app",
     content: () => {
