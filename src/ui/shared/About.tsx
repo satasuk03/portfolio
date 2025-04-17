@@ -31,11 +31,11 @@ export default function About() {
           </Lens>
         </div>
         <div>
-          <p className="sm:text-lg text-sm font-medium font-poppins text-terminal-white/80 italic">
+          <p className="text-sm font-poppins text-terminal-white/80 italic">
             &quot;Perfection is achieved, not when there is nothing more to add,
             but when there is nothing left to take away.&quot;
           </p>
-          <p className="sm:text-lg text-sm font-medium font-abel text-terminal-white/80">
+          <p className="text-xs mt-2 font-poppins text-terminal-white/60 w-full text-right">
             - Antoine de Saint-Exupéry
           </p>
         </div>
