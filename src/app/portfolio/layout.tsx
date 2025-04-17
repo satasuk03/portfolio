@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import NavBar from "@/ui/shared/NavBar";
-import { SiInstagram } from "@icons-pack/react-simple-icons";
+import { SiInstagram, SiGithub } from "@icons-pack/react-simple-icons";
 
 export default function Layout({
   children,
@@ -17,6 +17,9 @@ export default function Layout({
       <footer className="flex justify-center items-center gap-4 my-4 sm:my-8 text-secondary/80">
         <a href="https://www.instagram.com/zezethewanderer/">
           <SiInstagram className="w-6 h-6" />
+        </a>
+        <a href="https://github.com/satasuk03">
+          <SiGithub className="w-6 h-6" />
         </a>
       </footer>
     </>
