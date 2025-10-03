@@ -134,22 +134,23 @@ export default function SocialLinksPage() {
                 key={link.name}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
+                className="h-full"
               >
                 <a
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(
-                    "block p-6 rounded-xl border-2 transition-all duration-300 hover:shadow-lg group",
+                    "block h-full p-6 rounded-xl border-2 transition-all duration-300 hover:shadow-lg group flex flex-col",
                     link.bgColor,
                     link.borderColor,
                     "hover:border-opacity-60 hover:bg-opacity-20"
                   )}
                 >
-                  <div className="flex items-start gap-4">
+                  <div className="flex items-start gap-4 flex-1">
                     <div
                       className={cn(
                         "p-3 rounded-lg bg-gradient-to-br transition-all duration-300 group-hover:scale-110",
@@ -159,14 +160,14 @@ export default function SocialLinksPage() {
                       <IconComponent className="w-6 h-6 text-white" />
                     </div>
 
-                    <div className="flex-1">
+                    <div className="flex-1 flex flex-col">
                       <h3 className="text-xl font-bold font-abel text-terminal-white mb-2 group-hover:text-secondary transition-colors">
                         {link.name}
                       </h3>
-                      <p className="text-sm text-terminal-white/70 mb-3">
+                      <p className="text-sm text-terminal-white/70 mb-3 flex-1">
                         {link.description}
                       </p>
-                      <div className="flex items-center gap-2 text-xs text-terminal-white/60">
+                      <div className="flex items-center gap-2 text-xs text-terminal-white/60 mt-auto">
                         <ExternalLink className="w-3 h-3" />
                         <span>Click to visit</span>
                       </div>
@@ -182,10 +183,10 @@ export default function SocialLinksPage() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          transition={{ duration: 0.4, delay: 0.8 }}
           className="text-center mt-12"
         >
-          <BoxReveal duration={0.8} boxClassName="bg-terminal-white/20">
+          <BoxReveal duration={0.5} boxClassName="bg-terminal-white/20">
             <p className="text-terminal-white/80 text-sm font-abel">
               All content is{" "}
               <span className="text-secondary font-semibold">
