@@ -102,7 +102,7 @@ export default function SocialLinksPage() {
         >
           <BoxReveal duration={0.8} boxClassName="bg-secondary/80">
             <h1 className="text-5xl sm:text-6xl font-bold font-architects-daughter gradient-text mb-4">
-              Social Links
+              @3DZeeGee
             </h1>
           </BoxReveal>
 
