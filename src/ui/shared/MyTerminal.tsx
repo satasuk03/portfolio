@@ -55,7 +55,7 @@ export function MyTerminal({ redirectTo }: MyTerminalProps) {
         </AnimatedSpan>
 
         <TypingAnimation delay={4500} className="text-[#ededea] text-wrap">
-          &gt; Welcome to my digital workspace. I&apos;m Satasuk Viparksinlapin
+          &gt; Welcome to my digital workspace. I&apos;m Zeze
         </TypingAnimation>
       </Terminal>
 

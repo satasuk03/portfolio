@@ -71,22 +71,10 @@ export default function SocialLinksPage() {
           transition={{ duration: 0.5 }}
         >
           <Link
-            href="/"
+            href="/link"
             className="text-2xl font-bold font-abel gradient-text hover:opacity-80 transition-opacity"
           >
             ZEZE
-          </Link>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-        >
-          <Link
-            href="/portfolio"
-            className="text-lg font-abel text-terminal-white/80 hover:text-terminal-white transition-colors"
-          >
-            ← Back to Portfolio
           </Link>
         </motion.div>
       </div>

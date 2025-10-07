@@ -31,12 +31,12 @@ export default function MyHeroSection() {
             boxClassName="bg-gradient-to-br from-[#ff2975] from-35% to-[#17ffb3]"
           >
             <h2 className="drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] sm:text-6xl text-5xl font-semi-bold font-architects-daughter gradient-text">
-              Satasuk Vip
+              Zeze Vip
             </h2>
           </BoxReveal>
           <BoxReveal duration={0.5} boxClassName="bg-terminal-white/60">
             <p className="text-xs text-terminal-white/60">
-              *vip is from Viparksinlapin
+              *vip is from my last name
             </p>
           </BoxReveal>
           <BoxReveal duration={0.5} boxClassName="bg-terminal-white/80">
