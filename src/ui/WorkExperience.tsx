@@ -4,12 +4,12 @@ export function WorkExperience() {
   const data = [
     {
       title: "DEC 2021 - PRESENT",
-      subtitle: "Software Engineer at Cryptomind Group",
+      subtitle: "Software Engineer at Zentry",
       content: (
         <div className="font-abel text-sm font-medium">
           Working as a full-time Full Stack Engineer and a Feature Lead.
-          Responsible for designing, developing and testing the GuildFi/Radiant
-          web app which has over 100k users and 25k active users per day.
+          Responsible for designing, developing and testing the Radiant web app
+          which has over 100k users and 25k active users per day.
         </div>
       ),
     },
