@@ -9,6 +9,7 @@
   --foreground: #ededed;
   color: var(--color-terminal-white);
   scrollbar-gutter: stable;
+  scroll-behavior: smooth;
 }
 
 @theme inline {

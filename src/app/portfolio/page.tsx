@@ -7,7 +7,7 @@ import Skills from "@/ui/shared/Skills";
 
 export default function Portfolio() {
   return (
-    <div className="flex flex-col gap-5 sm:gap-10 text-terminal-white/80 font-abel">
+    <div className="flex flex-col gap-0 divide-y divide-terminal-white/5 text-terminal-white/80 font-abel">
       <MyHeroSection />
       <About />
       <Skills />

@@ -4,19 +4,22 @@ import { Lens } from "../components/Lens";
 
 export default function About() {
   return (
-    <FadeInDiv>
-      <h2 className="sm:text-2xl text-lg font-medium font-poppins text-secondary/80">
-        About me
-        <span className="text-xl mt-1"> 🧑‍💻️ 🧗 📸</span>
-      </h2>
-      <div className="sm:mt-4 mt-2 font-abel font-medium">
-        I’m a software engineer with a passion for creativity and
+    <FadeInDiv className="px-6 pt-4 pb-6 sm:px-10 sm:pt-6 sm:pb-8">
+      <div className="flex items-center gap-3 mb-3 sm:mb-5">
+        <span className="w-1 h-5 rounded-full bg-gradient-to-b from-[#ff2975] to-[#17ffb3] flex-shrink-0" />
+        <h2 className="sm:text-xl text-base font-semibold font-poppins text-secondary/90">
+          About me ...{" "}
+          <span className="text-xl">🧑‍💻️ 🧗 📸</span>
+        </h2>
+      </div>
+      <div className="sm:mt-4 mt-2 font-abel font-medium leading-relaxed text-terminal-white/75">
+        I&apos;m a software engineer with a passion for creativity and
         problem-solving. I specialize in backend development, building robust
-        and scalable systems that power great user experiences. I’m a fast
+        and scalable systems that power great user experiences. I&apos;m a fast
         learner, and highly adaptive. I believe in simplicity and clarity.
       </div>
       <div className="flex justify-center items-center sm:mt-5 mt-2 gap-2 sm:gap-4">
-        <div className="sm:w-[200px] sm:min-w-[200px] min-w-[150px] w-[150px] p-2 border border-secondary/30 rounded-lg">
+        <div className="sm:w-[200px] sm:min-w-[200px] min-w-[150px] w-[150px] p-2 border border-secondary/30 rounded-xl overflow-hidden">
           <Lens
             zoomFactor={2.5}
             lensSize={150}
@@ -36,7 +39,7 @@ export default function About() {
             but when there is nothing left to take away.&quot;
           </p>
           <p className="text-xs mt-2 font-poppins text-terminal-white/60 w-full text-right">
-            - Antoine de Saint-Exupéry
+            — Antoine de Saint-Exupéry
           </p>
         </div>
       </div>
