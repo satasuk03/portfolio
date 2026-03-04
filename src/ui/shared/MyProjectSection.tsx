@@ -4,7 +4,24 @@ import { ExpandableProjectCard } from "./ProjectList";
 
 const cards = [
   {
-    description: "Bakery Website",
+    description: "Chrome Extension",
+    title: "Riko Chrome Companion",
+    src: "/images/riko.webp",
+    ctaText: "Visit",
+    ctaLink: "https://github.com/satasuk03/riko-chrome-companion",
+    content: () => {
+      return (
+        <p>
+          A pixel-art anime companion for Chrome — drag her around and chat with
+          her across browser tabs. Supports OpenAI, Anthropic, and Gemini APIs
+          with retro-styled chat, emotional sprite states, and Shadow DOM
+          isolation. Built with vanilla JS and Manifest V3.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Mom's Bakery Website",
     title: "From Chuta",
     src: "/images/fromchuta.webp",
     ctaText: "Visit",
